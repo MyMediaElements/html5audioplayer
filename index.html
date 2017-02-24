@@ -27,12 +27,22 @@
 <body>
 
     <div id="container">
-       
+       <div class="onlineradio">
+    <p>
+        <audio id="yourAudio">
+            <source src='http://178.219.160.126:8000/stream.mp3' type='audio/mpeg' preload="auto" />
+        </audio>
+        <a id="audioControl" href="#">
+            <img src="https://freeiconshop.com/wp-content/uploads/edd/play-flat.png" id="play"/>
+            <img src="https://freeiconshop.com/wp-content/uploads/edd/pause-flat.png" id="pause"/>
+        </a>
+    </p>
+</div>
     </div>
 
     <script src="js/jquery.js"></script>
 
-    <script src="js/html5-audio-player.js"></script>
+    <script src="js/mymediaelements-player.js"></script>
    
 
 </body>
